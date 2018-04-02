@@ -1,0 +1,23 @@
+<?php 
+#processadd.phtml
+ ?>
+<!-- CDN's -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/classic/theme-neptune-touch/resources/theme-neptune-touch-all.css">
+<script type = "text/javascript" src = "js/ext-all.js"></script>
+<!-- / CDN's -->
+
+<!-- Main Container -->
+  <div class="container">
+  	<h1 class="text-center display-2">Hello Ethan! <br> <!-- Greeting Text -->
+  		<small>You has created a Product with the next characteristics:</small>
+  		 </h1>
+  		 <br>                               
+  		 <ul style="list-style-type: none;">  <!-- Characteristics List -->
+  		 	<li>Name: <?php echo $nombre; ?></li>
+  		 	<li>Price: <?php echo $precio; ?></li>
+  		 </ul>
+		<br>
+		<div id="ext-content"></div>	
+  </div>
+<!-- / Main Container -->
+  <script type="text/javascript" src="js/ext-build-process.js"></script>
